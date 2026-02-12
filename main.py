@@ -9,7 +9,7 @@ import yt_dlp
 # @BotFather dan olgan tokenni shu yerga yozing
 BOT_TOKEN = "8319528757:AAFCrb_fxCnlS6Bdz1Vad62L7U5nAnSxZs4"
 # Mini App havolasi
-APP_URL = "https://localhost:3000/"
+APP_URL = "https://mediabot-two.vercel.app/"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Botga start berilganda Mini App ochish tugmasini chiqarish"""
