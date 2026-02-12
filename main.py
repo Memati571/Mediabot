@@ -7,9 +7,9 @@ from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filte
 import yt_dlp
 
 # @BotFather dan olgan tokenni shu yerga yozing
-BOT_TOKEN = "8408816406:AAEhZdPry-6jbCn5EtvqpAVyO72nZ-w2PfQ"
+BOT_TOKEN = "8319528757:AAFCrb_fxCnlS6Bdz1Vad62L7U5nAnSxZs4"
 # Mini App havolasi
-APP_URL = "https://loyiha-havolasi.vercel.app"
+APP_URL = "https://localhost:3000/"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Botga start berilganda Mini App ochish tugmasini chiqarish"""
